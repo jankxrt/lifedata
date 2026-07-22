@@ -1,0 +1,12 @@
+{
+  "name": "bamf-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "scrape": "node scrape.js",
+    "install-browsers": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0"
+  }
+}
